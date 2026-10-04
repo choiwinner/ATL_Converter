@@ -1,0 +1,10 @@
+! T5833 GOLDEN SAMPLE SCRAMBLE EQUATIONS
+PHYS_X[0] = LOG_X[0] ;
+PHYS_X[1] = LOG_X[1] ^ LOG_X[0] ;
+PHYS_X[2] = LOG_X[2] ^ LOG_Y[0] ;
+
+PHYS_Y[0] = LOG_Y[0] ;
+PHYS_Y[1] = LOG_Y[1] ^ LOG_X[1] ;
+
+! Checkerboard Data Invert Condition for DQ0
+PHYS_DQ_INV[0] = LOG_X[0] ^ LOG_Y[0] ;

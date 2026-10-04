@@ -1,0 +1,22 @@
+# Python & Virtual Environments
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing & Coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage.xml
+.coverage
+htmlcov/
+
+# Build & Dist
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,6 @@
+SDEF "SAMPLE_LPDDR4_PKG"
+{
+  GROUP {
+    REORDERED_PINS = CS_N, CLK, DQ1, DQ0 ;
+  }
+}
